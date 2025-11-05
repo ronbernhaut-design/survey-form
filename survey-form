@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="title">Survey</h1>
+  <p id="description">The following will be a survery believe it or not</p>
+   <form id="survey-form">
+     <label id="name-label">Full Name <input id="name" type="text" placeholder="Name" required></input></label>
+      <label id="email-label">Email <input id="email" type="email" placeholder="Email" required></input></label>
+     <label id="number-label">Age <input id="number" type="number" placeholder="Age" min="10" max="99" required></input></label>
+     <label id="does-it-work">Do the elements in this survey function properly?
+       <select id="dropdown">
+         <option value="">Select one</option>
+         <option value="1">It works!!</option>
+         <option value-"2">If you're able to read this, option 1 might just be your answer</option>
+         </select></label>
+         <legend>Be honest, are you equipped to determine whether this page works properly?</legend>
+         <label id="yes-label"><input id="yes" value="yes" type="radio" name="learner-status" checked>Who's asking?</input></label>
+         <label id="no-label"><input id="no" value="no" type="radio" name="learner-status">Nah idk what's going on</input></label>
+          <label id="experience-label">Well how much experience ya got?
+            <input type="checkbox" value="1">hahaha zip</input>
+            <input type="checkbox" value="2">A lil</input>
+            <input type="checkbox" value="3">Decent ammount</input>
+            <input type="checkbox" value="4">Relax dawg I know my stuff</input>
+            <input type="checkbox" value="5">I am literally the best coder who's ever lived</input></label>
+            <label id="comments-label">Anything to add?<textarea id="comments"></textarea>
+            <input type="submit" value="submit" />
+</form>
+</body>

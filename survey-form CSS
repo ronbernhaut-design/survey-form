@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  background-color: #050505;
+  color: #1b9aaa;
+}
+
+#name, #email {
+  margin-left: 10px
+}
+
+#email-label {
+  padding-left: 28px
+}
+
+#number-label {
+  padding-right: 50px
+}
+
+#number {
+  min-width: 40px
+}
+
+#name-label, #email-label, #number-label {
+  display: block;
+  margin: 20px 0 20px 0;
+}
+
+.survey {
+  border: 5px solid #cc77cc;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+#does-it-work, #dropdown {
+  margin: 10px auto;
+  display: block;
+}
+
+#dropdown {
+  margin-bottom: 25px
+}
+
+legend {
+  margin-bottom: 10px
+}
+
+#yes-and-no {
+  margin-bottom: 25px;
+  color: #c7c3a8;
+}
+
+#experience-label-text {
+  font-size: 20px
+}
+
+#experience-label {
+  display: block;
+}
+
+#one, #two, #three, #four, #five {
+  display: block;
+  margin: -3px;
+}
+
+
+
+
+
+
+
+
